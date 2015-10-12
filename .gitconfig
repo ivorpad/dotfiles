@@ -18,6 +18,12 @@
 	# Clone a repository including all submodules
 	c = clone --recursive
 
+	# Checkout
+
+	co = checkout
+
+	gclean = git clean -d -x -f
+
 	# Commit all changes
 	ca = !git add -A && git commit -av
 
